@@ -1,0 +1,57 @@
+{
+  "axe": {
+    "violations": [],
+    "passes": 47,
+    "incomplete": [
+      {
+        "id": "color-contrast",
+        "nodes": [
+          {
+            "target": [
+              ".text-button > span[aria-hidden=\"true\"]"
+            ],
+            "summary": "Fix any of the following:\n  Element content contains only non-text characters"
+          }
+        ]
+      }
+    ]
+  },
+  "contrast": [
+    {
+      "name": "body on page",
+      "foreground": "rgb(242, 240, 232)",
+      "background": "rgb(20, 21, 19)",
+      "ratio": 16.05
+    },
+    {
+      "name": "muted on card",
+      "foreground": "rgb(175, 178, 167)",
+      "background": "rgb(29, 30, 27)",
+      "ratio": 7.78
+    },
+    {
+      "name": "primary action",
+      "foreground": "rgb(20, 21, 19)",
+      "background": "rgb(255, 172, 117)",
+      "ratio": 9.95
+    },
+    {
+      "name": "input border on page",
+      "foreground": "rgb(114, 117, 106)",
+      "background": "rgb(20, 21, 19)",
+      "ratio": 3.9
+    },
+    {
+      "name": "input border on card",
+      "foreground": "rgb(114, 117, 106)",
+      "background": "rgb(29, 30, 27)",
+      "ratio": 3.56
+    },
+    {
+      "name": "focus on input",
+      "foreground": "rgb(242, 240, 232)",
+      "background": "rgb(20, 21, 19)",
+      "ratio": 16.05
+    }
+  ]
+}

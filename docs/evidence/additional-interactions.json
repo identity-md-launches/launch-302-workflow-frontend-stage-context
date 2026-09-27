@@ -1,0 +1,18 @@
+{
+  "keyboard": {
+    "sequence": "Amount → Tab to Max → Tab to Approve → Enter → confirmation → Tab to checkbox → Space → Tab to Burn → Enter",
+    "approvalFocused": true,
+    "checkboxFocused": true,
+    "burnFocused": true,
+    "burnConfirmed": true,
+    "walletAndRpc": "mocked"
+  },
+  "integrity": {
+    "tamperedAbiBlocksConnection": true,
+    "missingWalletMessage": true
+  },
+  "screenshots": {
+    "desktop-mock.png": "1280 CSS pixels, populated boards from mocked RPC, amount input keyboard focus visible",
+    "mobile-mock.png": "320 CSS pixels, same populated boards, scrollWidth equals viewport width"
+  }
+}

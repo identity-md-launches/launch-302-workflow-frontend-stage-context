@@ -1,0 +1,44 @@
+[
+  {
+    "path": "THIRD_PARTY_NOTICES.txt",
+    "status": 200,
+    "bytes": 19031,
+    "hashMatches": true
+  },
+  {
+    "path": "abi/BurnLeaderboard.json",
+    "status": 200,
+    "bytes": 5658,
+    "hashMatches": true
+  },
+  {
+    "path": "abi/LaunchToken.json",
+    "status": 200,
+    "bytes": 5715,
+    "hashMatches": true
+  },
+  {
+    "path": "assets/ccip-C9WsjAwh.js",
+    "status": 200,
+    "bytes": 2610,
+    "hashMatches": true
+  },
+  {
+    "path": "assets/index-DD5zPxSE.css",
+    "status": 200,
+    "bytes": 11521,
+    "hashMatches": true
+  },
+  {
+    "path": "assets/index-Dk0ba4Ys.js",
+    "status": 200,
+    "bytes": 476439,
+    "hashMatches": true
+  },
+  {
+    "path": "index.html",
+    "status": 200,
+    "bytes": 885,
+    "hashMatches": true
+  }
+]

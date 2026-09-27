@@ -1,0 +1,55 @@
+{
+  "results": [
+    "Disconnected actions are disabled",
+    "Wallet connection rejection is visible and recoverable",
+    "Wrong chain gates all token actions",
+    "Unknown chain uses exact handoff add-chain parameters",
+    "Switch is retried after adding the chain",
+    "Connected PYRE balance comes from RPC",
+    "Allowance is visible before payment",
+    "Event-derived ranks include accounts outside the top ten",
+    "Zero burn rejected",
+    "Insufficient balance rejected without floating-point rounding",
+    "Excess precision is associated with the invalid field",
+    "Max uses the exact token balance",
+    "Rejected approval cannot enable a burn",
+    "Approval still requires explicit permanent-burn confirmation",
+    "Simulation failure never requests a wallet transaction",
+    "Approval targets PYRE and grants exactly 100 PYRE to BurnLeaderboard",
+    "Burn targets attested contract with correct amount and no ETH",
+    "Confirmed burn refreshes balance and event rank",
+    "Sweep confirms, sends no approval, refreshes contract balance",
+    "Account changes clear consent and disable pending actions",
+    "Missing deployed code disables all writes",
+    "Mismatched token binding disables all writes",
+    "Failed history never presents a fabricated rank",
+    "No horizontal overflow at 1280px",
+    "No horizontal overflow at 800px",
+    "No horizontal overflow at 390px",
+    "No horizontal overflow at 320px",
+    "200% text enlargement reflows without page overflow",
+    "Reduced motion disables button transitions",
+    "Keyboard order reaches amount after wallet control",
+    "No uncaught browser JavaScript errors",
+    "Production app performs contract RPC reads"
+  ],
+  "errors": [],
+  "transactions": [
+    {
+      "data": "0x095ea7b30000000000000000000000002831898546c5fe5f4e6ed19b85c6524b8e9069300000000000000000000000000000000000000000000000056bc75e2d63100000",
+      "from": "0x000000000000000000000000000000000000000b",
+      "to": "0xE6B240D60DE634b646e5B3693782D6Df2c81a278"
+    },
+    {
+      "data": "0x42966c680000000000000000000000000000000000000000000000056bc75e2d63100000",
+      "from": "0x000000000000000000000000000000000000000b",
+      "to": "0x2831898546c5fe5f4e6ed19b85c6524b8e906930"
+    },
+    {
+      "data": "0x35faa416",
+      "from": "0x000000000000000000000000000000000000000b",
+      "to": "0x2831898546c5fe5f4e6ed19b85c6524b8e906930"
+    }
+  ],
+  "rpcRequests": 296
+}

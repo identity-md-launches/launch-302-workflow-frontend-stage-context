@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-267-burnleaderboard",
+  "version": 1,
+  "launchId": "1b579f1c-7cb8-4dfa-ab60-fa9b4f140810",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Intended for Sepolia. Deploy LaunchToken before BurnLeaderboard; $token sets the app's immutable PYRE address. BurnLeaderboard has no owner, needs no PYRE at deployment and requires no initialization calls. The factory supplies the liquidity pool and MerkleDistributor. The pool pairs PYRE with native ETH and has no hook. initialPrice is decimal sqrtPriceX96; services derive the effective opening price from policy when specified. Policy and signed artifact linkage are supplied by launch services.",
+    "token": {
+      "name": "Pyre",
+      "symbol": "PYRE",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "BurnLeaderboard",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xb9bee29d535a568240f2fa8f37d11e180f34ff51b4c72f5598a9e2f27abfc68a",
+      "abiHash": "38880b8e56d42ce900f744a7908c7139632a49f1c3f33385c64ceaed29d37bee",
+      "address": "0xe6b240d60de634b646e5b3693782d6df2c81a278",
+      "blockNumber": 11791341,
+      "creationCodeHash": "7ea76f3bc3ca3e08533d4cc0e3df8565d1283566ab8352cd0de45f3edf1cbd17"
+    },
+    {
+      "name": "BurnLeaderboard",
+      "txHash": "0xb9bee29d535a568240f2fa8f37d11e180f34ff51b4c72f5598a9e2f27abfc68a",
+      "abiHash": "3fec5ce7e0a299c7bfacf751083db7035ac970a6f7e8f2b952462be19d2afad6",
+      "address": "0x2831898546c5fe5f4e6ed19b85c6524b8e906930",
+      "blockNumber": 11791341,
+      "creationCodeHash": "f32d645c63fcc653b855bd5d561ace58725b31251c2dfe64377a07fbbd0cb888"
+    }
+  ],
+  "sourceCommit": "9f3a8d70d37c2c85e5ca65d1cb7cc2b089c2b251",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "118107a9213a9e363e3c74218c0c2ea5946bb14c158656c30cd64469df99fb2f"
+}
